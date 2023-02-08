@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: <SPDX-License>
+
+
 pragma solidity ^0.6.12;
 
 contract CharitableGiving {
