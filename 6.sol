@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract CharitableGiving {
 
-    address public cUSDAddress = 0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
+    address public cUSDAddress = 0x765DE816845861e75A25fCA122bb6898B8B1282a;
 
     address public charityAddress;
 
@@ -45,7 +45,7 @@ contract CharitableGiving {
 
         require(
 
-            address(cUSDAddress).transferFrom(
+            address(0x765DE816845861e75A25fCA122bb6898B8B1282a).transferFrom(
 
                 address(this), charityAddress, amount, time
 
